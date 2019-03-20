@@ -24,3 +24,11 @@ I'll be ${ age + 1 } years old next month.`;
 //     equivalent to,
 let sentenceOld: string = "Hello, my name is " + fullName + "./n/n"
     + "I'll be " + (age + 1) + " years old next month.";
+
+// Array
+
+//     method #1:
+let list1: number[] = [1, 2, 3];
+
+//     method #2:
+let list2: Array<number> = [1, 2, 3];
