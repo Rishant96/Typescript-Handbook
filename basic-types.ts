@@ -32,3 +32,14 @@ let list1: number[] = [1, 2, 3];
 
 //     method #2:
 let list2: Array<number> = [1, 2, 3];
+
+// Tuples
+//     tuples allow you to express an array where the type of a fixed number of elements is known,
+//     but need not be the same.
+
+//     declare a tuple type
+let x: [string, number];
+//     initialize it
+x = ["hello", 10];  // OK
+//     initialize it incorrectly
+x = [10, "hello"];  // Error
